@@ -1,0 +1,25 @@
+code:
+hema=[]
+n=int(input("enter n value"))
+for i in range(n):
+    e=int(input())
+    hema.append(e)
+min=hema[0]
+for i in range(1,n):
+    if hema[i]<min:
+        min=hema[i]
+print(min)        
+max=hema[0]
+for i in range(1,n):
+    if hema[i]>max:
+        max=hema[i]
+print(max)    
+out put:
+44
+33
+78
+54
+45
+33
+78
+>>> 
